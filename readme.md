@@ -44,6 +44,20 @@ exportProjectId: 68
 dateType: updated_after
 ```
 
+## Como executar
+
+Para executar via docker é simples, basta chamar o comando abaixo trocando os valores.
+
+```bash
+ docker run --rm -v $(pwd)/config.yml:/app/config.yml -v $(pwd)/output:/app/exported  inmount:{version} {token-gitlab}
+```
+
+Para executar via terminal usando python basta executar o seguinte comando
+
+```bash
+python3 main.py {token-gitlab}
+```
+
 
 ## Autor
 * **Mattheus Cassundé**
