@@ -1,0 +1,4 @@
+gitlabUrl: http://192.168.1.1
+daysToExport: 30
+exportProjectId: 68
+dateType: updated_after
